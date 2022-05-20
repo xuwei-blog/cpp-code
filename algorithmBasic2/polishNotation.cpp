@@ -22,7 +22,6 @@ double polishNotation(){
             return atof(str);//字符串转换成浮点数
     }
 }
-
 int main(){
     printf("%lf",polishNotation());
     system("pause");
