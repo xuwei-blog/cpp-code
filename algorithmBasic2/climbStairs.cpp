@@ -17,6 +17,7 @@ int stairs(int n){
     }
     return stairs(n-1) + stairs(n-2);
 }
+
 int main(){
     while(cin>>N){
         cout<<stairs(N)<<endl;
