@@ -9,7 +9,6 @@
 5.常量对象可以执行常量成员函数
 6.const也能作为重载条件
 */
-
 class Sample{
     public:
         int value;
