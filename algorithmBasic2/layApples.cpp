@@ -13,6 +13,7 @@ using namespace std;
 边界条件：苹果等于0，有1种方法
          盘子等于0，有0种方法
 */
+
 int f(int m,int n){
     if(n>m)
         return f(m,m);
