@@ -15,7 +15,6 @@ int Binaey_search(int a[],int size,int p){
     }
     return -1;
 }
-
 int main(){
     int a[] ={4,5,9,33,56,89,333,357,1256};
     int size = sizeof(a) / sizeof(a[0]);
