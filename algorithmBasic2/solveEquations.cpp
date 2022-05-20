@@ -28,6 +28,7 @@ int main(){
     printf("%.8f\n",root);
     printf("%d",triedTimes);
 
+
     system("pause");
     return 0;
 }
