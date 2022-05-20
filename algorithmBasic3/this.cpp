@@ -21,8 +21,6 @@ int main(){
     A*q = NULL;
     p->HHello(); //等同于 Hello(p);  报错
 
-
-
     system("pause");
     return 0;
 }
