@@ -32,9 +32,3 @@ int MostExpensiveCar(CCar cars[],int total){//求最贵汽车的价格
     }
     return tmpMax;
 }
-
-int main(){
-    
-    system("pause");
-    return 0;
-}
