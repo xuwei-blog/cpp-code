@@ -11,7 +11,6 @@ class Demo{
             cout<<"id"<<id<<" destructor"<<endl;
         }
 };
-
 Demo d1(1);
 void Func(){
     static Demo d2(2);
