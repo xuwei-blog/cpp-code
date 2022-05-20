@@ -20,7 +20,6 @@ int lower_bound(int a[], int size, int p)
     }
     return lastPos;
 }
-
 int main()
 {
     int a[] = {4, 5, 9, 33, 56, 89, 333, 357, 1256};
