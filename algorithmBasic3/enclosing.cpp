@@ -8,7 +8,6 @@ using namespace std;
 与他们在成员初始化列表中出现的次序无关
 3.当封闭类的对象消亡时，先执行封闭类的析构函数。
 次序和构造函数的调用次序相反
-
 */
 class CTyre{
     private:
