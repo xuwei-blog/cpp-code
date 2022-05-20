@@ -12,7 +12,6 @@ int main(){
     system("pause");
     return 0;
 }
-
 void NQueen(int k){//在0到k-1行皇后已经摆好的情况下
                    //摆第k行以及其后的皇后
     int i;
