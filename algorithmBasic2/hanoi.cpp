@@ -19,6 +19,7 @@ void Hanoi(int n,char src,char mid,char dest){
     return;
 }
 
+
 int main(){
     int n;
     cin >> n; //输入盘子数量
