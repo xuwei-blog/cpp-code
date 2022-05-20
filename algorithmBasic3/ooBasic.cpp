@@ -85,8 +85,6 @@ void 创建对象()
     cout << (arr11+1)->getImag() << endl;
 }
 
-
-
 class A{
     
     public:
@@ -97,7 +95,6 @@ class A{
             a = copy.a;   
             b = copy.b;
         }
-
 
 };
 void 复制构造(){
