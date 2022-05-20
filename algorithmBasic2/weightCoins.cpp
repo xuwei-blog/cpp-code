@@ -14,7 +14,6 @@ typedef int ElemType;
 /*  题解思路：枚举。硬币A到L，假设A是假币而且是轻的，
 再假设A是假币而且是重的，都不符合A就不是假币，以此类推。
 */
-
     bool isFake(char c,bool light);
     //light为真表示假设假币为轻，否则表示假设假币为重
     //返回值为假设是否成立
