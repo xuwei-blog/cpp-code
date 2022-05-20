@@ -67,6 +67,7 @@ bool count24(double a[], int n)
     }
 }
 
+
 int main()
 {
     int i = 0;
