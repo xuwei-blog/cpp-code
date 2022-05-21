@@ -13,6 +13,10 @@ class String{
         const char * c_str(){return str;}
         String & operator = (const char * s);
         ~String (){delete [] str;}
+        String(String & s){//同时也要重载复制构造 避免缺省的复制构造让str重复指向
+            str = new char[strlen(s.str)+1];
+            strcpy(str,s.str);
+        }
 };
 /*返回值为String & 可以保留运算符原本的特性
 a = b = c
