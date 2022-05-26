@@ -102,3 +102,20 @@ int main(){
 
 
 
+struct Student{
+    char name[20];
+    int score;
+};
+
+//写入文件
+int main(){
+    Student s;
+    ofstream OutFile("student.dat",ios::out|ios::binary);
+    while(cin >> s.name >> s.score){
+        OutFile.write((char*)&s,sizeof(s));
+    }
+    OutFile.close();
+
+    system("pause");
+    return 0;
+}
