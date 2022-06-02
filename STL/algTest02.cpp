@@ -16,11 +16,12 @@ int main(){
     int a1[] = {1,2,3,4,5,6,7,8,9,10};
     int a2[] = {100,2,8,1,50,3,8,9,10,2};
     vector<int> v(a1,a1+SIZE);
-    ostream_iterator<int> output(cout," "); 
-    random_shuffle(v.begin(),v.end());
+    ostream_iterator<int> output(cout," "); //把内容交给output等于交给了cout，输出自带空格
+    random_shuffle(v.begin(),v.end());//变序算法 随机打乱值
+
     cout << endl <<"1) ";
     copy(v.begin(),v.end(),output);   //功能类似于 输出
-    copy(a2,a2+SIZE,v.begin());
+    copy(a2,a2+SIZE,v.begin());   //在copy.cpp中体现原理
     cout << endl << "2) ";
     cout << count(v.begin(),v.end(),8);
     cout << endl <<"3) ";
@@ -44,3 +45,4 @@ int main(){
     system("pause");
     return 0;
 }
+
