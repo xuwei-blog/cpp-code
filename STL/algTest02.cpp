@@ -26,14 +26,12 @@ int main(){
     cout << count(v.begin(),v.end(),8);
     cout << endl <<"3) ";
     cout << count_if(v.begin(),v.end(),CLessThen9());
-
     cout << endl << "4) ";
     cout << *(min_element(v.begin(),v.end()));
     cout << endl << "5) ";
     cout << *(max_element(v.begin(),v.end()));
     cout << endl << "6) ";
     cout << accumulate(v.begin(),v.end(),0); //求和
-
     cout << endl << "7) ";
     for_each(v.begin(),v.end(),outputSquare); //a2求平方
     vector<int> cubes(SIZE);
