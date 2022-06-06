@@ -29,10 +29,10 @@ int main(){
     for_each(arr.begin(),arr.end(),[](int x){cout << x << " ";});
 
     //lambda表达式实现递归(未实现)
-    function<int(int)> fib = [&](int n){
-        return n <= 2 ? 1 : fib(n-1) + fib(n-2);
-    };
-    cout << fib(5) <<endl;
+    // function<int(int)> fib = [&](int n){
+    //     return n <= 2 ? 1 : fib(n-1) + fib(n-2);
+    // };
+    // cout << fib(5) <<endl;
     system("pause");
     return 0;
 }
